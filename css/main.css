@@ -14,7 +14,7 @@ h5 {
 
 body {
   z-index: 9999 !important;
-  background: linear-gradient(90deg, #eee 0.2px, transparent 0.4%) 1px 0, #fff !important;
+  background: linear-gradient(90deg, #eee 0.9px, transparent 0.4%) 1px 0, #fff !important;
   background-size: 22.5% 2px !important;
   background-position-x: 6% !important;
   overflow-x: none !important;
