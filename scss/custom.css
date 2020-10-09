@@ -18,7 +18,7 @@
   --teal: #20c997;
   --cyan: #17a2b8;
   --white: #fff;
-  --gray: #eee;
+  --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #11121d;
   --secondary: #6c757d;
@@ -114,11 +114,9 @@ p {
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
-  -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
   cursor: help;
   border-bottom: 0;
-  -webkit-text-decoration-skip-ink: none;
   text-decoration-skip-ink: none;
 }
 
@@ -432,6 +430,7 @@ h5,
 .statement--xs,
 .h5 {
   font-size: 1.25rem;
+  line-height: 2.3;
 }
 
 h6,
@@ -2196,8 +2195,6 @@ input[type="date"].form-control,
 input[type="time"].form-control,
 input[type="datetime-local"].form-control,
 input[type="month"].form-control {
-  -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
 }
 
@@ -2632,7 +2629,6 @@ textarea.form-control.is-invalid {
   color: #212529;
   text-align: center;
   vertical-align: middle;
-  -webkit-user-select: none;
   user-select: none;
   background-color: transparent;
   border: 1px solid transparent;
@@ -4175,8 +4171,6 @@ input[type="button"].btn-block {
     no-repeat right 0.75rem center/8px 10px;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
-  -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
 }
 .custom-select:focus {
@@ -4290,8 +4284,6 @@ input[type="button"].btn-block {
   height: 1.4rem;
   padding: 0;
   background-color: transparent;
-  -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
 }
 .custom-range:focus {
@@ -4316,16 +4308,12 @@ input[type="button"].btn-block {
   background-color: #007bff;
   border: 0;
   border-radius: 1rem;
-  -webkit-transition: background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
     box-shadow 0.15s ease-in-out;
-  -webkit-appearance: none;
   appearance: none;
 }
 @media (prefers-reduced-motion: reduce) {
   .custom-range::-webkit-slider-thumb {
-    -webkit-transition: none;
     transition: none;
   }
 }
@@ -4347,16 +4335,12 @@ input[type="button"].btn-block {
   background-color: #007bff;
   border: 0;
   border-radius: 1rem;
-  -moz-transition: background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
     box-shadow 0.15s ease-in-out;
-  -moz-appearance: none;
   appearance: none;
 }
 @media (prefers-reduced-motion: reduce) {
   .custom-range::-moz-range-thumb {
-    -moz-transition: none;
     transition: none;
   }
 }
@@ -4381,15 +4365,12 @@ input[type="button"].btn-block {
   background-color: #007bff;
   border: 0;
   border-radius: 1rem;
-  -ms-transition: background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
     box-shadow 0.15s ease-in-out;
   appearance: none;
 }
 @media (prefers-reduced-motion: reduce) {
   .custom-range::-ms-thumb {
-    -ms-transition: none;
     transition: none;
   }
 }
@@ -6165,7 +6146,6 @@ a.close.disabled {
 .modal-dialog-centered::before {
   display: block;
   height: calc(100vh - 1rem);
-  height: -webkit-min-content;
   height: min-content;
   content: "";
 }
@@ -6275,7 +6255,6 @@ a.close.disabled {
   }
   .modal-dialog-centered::before {
     height: calc(100vh - 3.5rem);
-    height: -webkit-min-content;
     height: min-content;
   }
 
@@ -6598,7 +6577,6 @@ a.close.disabled {
   float: left;
   width: 100%;
   margin-right: -100%;
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transition: transform 0.6s ease-in-out;
 }
@@ -8118,17 +8096,14 @@ button.bg-pink:focus {
   }
 }
 .user-select-all {
-  -webkit-user-select: all !important;
   user-select: all !important;
 }
 
 .user-select-auto {
-  -webkit-user-select: auto !important;
   user-select: auto !important;
 }
 
 .user-select-none {
-  -webkit-user-select: none !important;
   user-select: none !important;
 }
 
@@ -10883,3 +10858,5 @@ a.text-pink:focus {
 .nav-link-inner--text-muted {
   color: #fafafa;
 }
+
+/*# sourceMappingURL=custom.css.map */
