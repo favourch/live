@@ -20,6 +20,10 @@ body {
   overflow-x: none !important;
 }
 
+.light-grey {
+  background-color: #eee !important;
+}
+
 /* span.hover i.fa-arrow-down {
   color: #fafafa;
   font-size: 1em;
